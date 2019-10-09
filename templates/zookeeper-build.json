@@ -22,7 +22,7 @@
         {
             "description": "Git source URI for application",
             "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/yasammez/openshift-zookeeper",
+            "value": "https://github.com/piratebriggs/openshift-zookeeper",
             "required": true
         },
         {
@@ -34,13 +34,13 @@
         {
             "description": "Path within Git project to build; empty for root project directory.",
             "name": "CONTEXT_DIR",
-            "value": "zookeeper",
+            "value": "",
             "required": false
         },
         {
             "description": "Base ImageStream Tag",
             "name": "BASE_IMAGESTREAMTAG",
-            "value": "rhel7:7.4",
+            "value": "ubi-ab:latest",
             "required": false
         }
     ],

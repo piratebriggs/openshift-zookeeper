@@ -1,0 +1,10 @@
+{
+    "kind": "ImageStream",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "ubi-ab"
+    },
+	"spec": {
+		"dockerImageRepository": "registry.access.redhat.com/ubi7/ubi"
+	}
+}
